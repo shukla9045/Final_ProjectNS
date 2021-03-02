@@ -1,0 +1,20 @@
+Link,
+Navbar {
+  justify-content: space-around;
+}
+Nav,
+Navbar {
+  justify-content: space-around;
+  display: flex;
+}
+.navlink {
+  justify-content: space-around;
+}
+.navbar-nav {
+  justify-content: 20px;
+  display: flex;
+  color: aqua;
+}
+/* .navbar-default .navbar-nav > li > a {
+  color: white;
+} */
