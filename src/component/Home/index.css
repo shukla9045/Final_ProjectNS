@@ -1,0 +1,20 @@
+.custom {
+  height: 70px;
+  width: 50px;
+}
+img {
+  height: 70vh;
+  width: 70vh;
+  display: flex;
+}
+body {
+  background-image: white;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+}
+
+.customcr {
+  height: 420px;
+  width: 500px;
+}

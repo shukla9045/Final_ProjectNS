@@ -1,4 +1,4 @@
-Link,
+/* Link,
 Navbar {
   justify-content: space-around;
 }
@@ -7,6 +7,7 @@ Navbar {
   justify-content: space-around;
   display: flex;
 }
+
 .navlink {
   justify-content: space-around;
 }
@@ -14,7 +15,15 @@ Navbar {
   justify-content: 20px;
   display: flex;
   color: aqua;
-}
+} */
 /* .navbar-default .navbar-nav > li > a {
   color: white;
 } */
+Form,
+Nav {
+  display: inline;
+  display: flex;
+}
+.space {
+  justify-content: space-evenly;
+}
