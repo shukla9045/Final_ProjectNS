@@ -13,7 +13,7 @@ export default function App() {
         <div className="App">
           <Navigation />
           <Switch className="space">
-            <Route path="/about" exact component={AboutProject} />
+            <Route path="/" exact component={AboutProject} />
             <Route path="/home" exact component={Home} />
             <Route path="/contact" exact component={ContactUs} />
             <Route path="/checkWeather" exact component={CheckWeather} />
