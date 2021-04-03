@@ -1,27 +1,26 @@
 import Home from "./component/Home";
-import Navigation from "./component/Home/Nav/Nav";
+import Navigation from "./component/Nav/Nav";
 import "./styles.css";
-import ContactUs from "./component/Home/ContactUs";
+import ContactUs from "./component/ContactUs";
 import About from "./component/Home/About";
-import Form from "./component/main/Form";
-import TodoList from "./component/main/Todolist";
+import CheckWeather from "./component/CheckWeather/CheckWeather";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import MyApp from "./component/main/datetime";
+import AboutProject from "./component/about/AboutProject";
 export default function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navigation />
-        <Switch className="space">
-          <Route path="/" exact />
-          <Route path="/home" exact component={Home} />
-          <Route path="/contact" exact component={ContactUs} />
-          <Route path="/about" exact component={About} />
-        </Switch>
-      </div>
-      {/* <header>
-        <h1>To do List</h1>
-      </header> */}
-    </Router>
+    <>
+      <Router>
+        <div className="App">
+          <Navigation />
+          <Switch className="space">
+            <Route path="/about" exact component={AboutProject} />
+            <Route path="/home" exact component={Home} />
+            <Route path="/contact" exact component={ContactUs} />
+            <Route path="/checkWeather" exact component={CheckWeather} />
+            <Route path="/about" exact component={About} />
+          </Switch>
+        </div>
+      </Router>
+    </>
   );
 }

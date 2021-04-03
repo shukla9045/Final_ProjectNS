@@ -1,0 +1,20 @@
+.h1 {
+  color: rgb(233, 13, 123);
+  padding-top: 20px;
+  margin: 20px;
+  list-style: -webkit-image-set();
+}
+.left {
+  text-align: left;
+  padding-left: 120px;
+}
+li {
+  padding-left: 20px;
+  list-style: none;
+  color: rgb(18, 11, 151);
+  font-size: 20px;
+}
+
+.headcolor {
+  color: darkred;
+}

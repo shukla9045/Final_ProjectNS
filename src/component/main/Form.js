@@ -1,3 +1,4 @@
+import "./style.css";
 const Form = () => {
   return (
     <form>

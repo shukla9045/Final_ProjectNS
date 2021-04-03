@@ -1,3 +1,4 @@
+import "./style.css";
 const TodoList = () => {
   return (
     <div className="todo-container">

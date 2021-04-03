@@ -12,15 +12,21 @@ const Navigation = () => {
       {/* <Switch> */}
 
       <Nav className="space">
+        <Link className="navlink" to="/about">
+          About
+        </Link>
         <Link className="navlink" to="/home">
           Home
         </Link>
 
         <Link className="navlink" to="/contact">
-          Features
+          ScheduleTask
         </Link>
-        <Link className="navlink" to="/about">
-          Pricing
+        <Link className="navlink" to="/checkWeather">
+          CheckWeather
+        </Link>
+        <Link className="navlink" to="/games">
+          Games
         </Link>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />

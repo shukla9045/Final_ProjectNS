@@ -1,0 +1,27 @@
+h1 {
+  margin-top: 50px;
+  color: #c52b1d;
+  text-align: center;
+  margin: 10px;
+}
+.in {
+  display: inline-flex;
+}
+/* div {
+  /* margin: 200px 200px; */
+
+form {
+  color: #010d11;
+  font-size: large;
+}
+button {
+  color: #27aedb;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* form-group,
+h1 {
+  display: flex;
+} */
